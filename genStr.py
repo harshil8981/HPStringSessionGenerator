@@ -21,7 +21,7 @@ I'm **String Session Generator** \nI Can Generate Pyrogram's String Session Of Y
 
 Now Send Your `API_ID` Same As `APP_ID` To Start Generating Session.
 
-Get API_ID from https://my.telegram.org"""
+Get API_ID from **@MT_MyTelegramOrg_Bot** How To Get UserSession For Website\**nhttps://youtu.be/WUN_12-dYOM**"""
 HASH_TEXT = "Now Send Your `API_HASH`.\n\nGet API_HASH From https://my.telegram.org\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
     "Now Send Your Telegram Account's Phone Number in International Format. \n"
@@ -209,11 +209,12 @@ Must Join Channel for Bot Updates !!
     reply_markup = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('CHANNEL', url='https://t.me/AsmSafone'),
-                InlineKeyboardButton('SUPPORT', url='https://t.me/Safothebot')
+                InlineKeyboardButton('🗣️Group', url='https://t.me/mo_tech_group'),
+                InlineKeyboardButton('📃Bot List', url='https://t.me/Mo_Tech_YT/176'),
+                InlineKeyboardButton('✳️Source', url='https://github.com/MRK-YT/MT-StringSessionGenerator'),
             ],
             [
-                InlineKeyboardButton('DEVELOPER', url='https://t.me/I_Am_Only_One_1'),
+                InlineKeyboardButton('How To Get For Website', url='https://youtu.be/WUN_12-dYOM'),
             ]
         ]
     )
