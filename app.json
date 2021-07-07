@@ -1,7 +1,7 @@
 {
     "name": "String-Session-Generator",
     "description": "A bot for Generating String Session of Telegram Account mostly for Userbots.",
-    "repository": "https://github.com/AsmSafone/StringSessionGenerator",
+    "repository": "https://github.com/MRK-YT/MT-StringSessionGenerator",
     "keywords": [
         "string",
         "session"
@@ -18,27 +18,27 @@
     "env": {
         "APP_NAME": {
             "description": "Heroku App Name",
-            "value": "",
+            "value": "MT_UserSession_Bot",
             "required": true
         },
         "BOT_TOKEN": {
             "description": "Your bot token, as a string.",
-            "value": "",
+            "value": "123-45678-mkah-lalsjebd-wbendj-wkejdisoz-134",
             "required": true
         },
         "API_KEY": {
             "description": "Your Heroku Account API Key from https://dashboard.heroku.com/account ",
-            "value": "",
+            "value": "1234-5678-9011-1213-1415",
             "required": true
         },
         "API_ID": {
-            "description": "Get from https://my.telegram.org",
-            "value": "",
+            "description": "Get from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "value": "123456",
             "required": true
         },
         "API_HASH": {
-            "description": "Get from https://my.telegram.org",
-            "value": "",
+            "description": "Get from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "value": "0123456789abcdefgh0123455789-abcdefg-hi-j",
             "required": true
         }
     }
