@@ -92,7 +92,7 @@ async def genStr(_, msg: Message):
     hash = await bot.ask(chat.id, HASH_TEXT)
     if await is_cancel(msg, hash.text):
         return
-    if not len(hash.text) >= 30:
+    if len(hash.text) < 30:
         await msg.reply("`API_HASH` is Invalid.\nPress /start to Start Again!")
         return
     api_hash = hash.text
@@ -111,7 +111,10 @@ async def genStr(_, msg: Message):
     try:
         client = Client("my_account", api_id=api_id, api_hash=api_hash)
     except Exception as e:
-        await bot.send_message(chat.id ,f"**ERROR:** `{str(e)}`\nPress /start to Start Again!")
+        await bot.send_message(
+            chat.id, f'**ERROR:** `{e}`\nPress /start to Start Again!'
+        )
+
         return
     try:
         await client.connect()
@@ -167,10 +170,10 @@ async def genStr(_, msg: Message):
         try:
             await client.check_password(new_code)
         except Exception as e:
-            await msg.reply(f"**ERROR:** `{str(e)}`")
+            await msg.reply(f'**ERROR:** `{e}`')
             return
     except Exception as e:
-        await bot.send_message(chat.id ,f"**ERROR:** `{str(e)}`")
+        await bot.send_message(chat.id, f'**ERROR:** `{e}`')
         return
     try:
         session_string = await client.export_session_string()
@@ -182,7 +185,7 @@ async def genStr(_, msg: Message):
         )
         await bot.send_message(chat.id, text, reply_markup=reply_markup)
     except Exception as e:
-        await bot.send_message(chat.id ,f"**ERROR:** `{str(e)}`")
+        await bot.send_message(chat.id, f'**ERROR:** `{e}`')
         return
 
 
