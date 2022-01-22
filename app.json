@@ -18,7 +18,7 @@
     "env": {
         "APP_NAME": {
             "description": "Heroku App Name",
-            "value": "tg-string-generator",
+            "value": "HP_UserSession_Bot",
             "required": true
         },
         "BOT_TOKEN": {
