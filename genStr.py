@@ -30,7 +30,7 @@ PHONE_NUMBER_TEXT = (
 )
 
 
-UPDATES_CHANNEL = os.environ.get('UPDATES_CHANNEL', 'Hpbot_update)
+UPDATES_CHANNEL = os.environ.get('UPDATES_CHANNEL', 'Hpbot_update')
 
 @bot.on_message(filters.private & filters.command("start"))
 async def genStr(_, msg: Message):
@@ -209,12 +209,12 @@ Must Join Channel for Bot Updates !!
     reply_markup = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('🗣️Group', url='https://t.me/mo_tech_group'),
-                InlineKeyboardButton('📃Bot List', url='https://t.me/Mo_Tech_YT/176'),
-                InlineKeyboardButton('✳️Source', url='https://github.com/MRK-YT/MT-StringSessionGenerator'),
+                InlineKeyboardButton('🗣️Group', url='https://t.me/Hpbot_update'),
+                InlineKeyboardButton('📃Bot List', url='https://t.me/Hpbot_update'),
+                InlineKeyboardButton('✳️Source', url='https://github.com/harshil8981/HP-StringSessionGenerator'),
             ],
             [
-                InlineKeyboardButton('How To Get For Website', url='https://youtu.be/WUN_12-dYOM'),
+                InlineKeyboardButton('How To Get For Website', url='https://t.me/Hpbot_update'),
             ]
         ]
     )
