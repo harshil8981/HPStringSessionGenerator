@@ -18,7 +18,7 @@
     "env": {
         "APP_NAME": {
             "description": "Heroku App Name",
-            "value": "MT_UserSession_Bot",
+            "value": "HP_UserSession_Bot",
             "required": true
         },
         "BOT_TOKEN": {
@@ -32,12 +32,12 @@
             "required": true
         },
         "API_ID": {
-            "description": "Get from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "description": "Get from https://my.telegram.org or @TeleORG_Bot",
             "value": "123456",
             "required": true
         },
         "API_HASH": {
-            "description": "Get from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "description": "Get from https://my.telegram.org or @TeleORG_Bot",
             "value": "0123456789abcdefgh0123455789-abcdefg-hi-j",
             "required": true
         }
