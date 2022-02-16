@@ -21,7 +21,7 @@ I'm **String Session Generator** \nI Can Generate Pyrogram's String Session Of Y
 
 Now Send Your `API_ID` Same As `APP_ID` To Start Generating Session.
 
-Get API_ID from **@TeleORG_Bot** How To Get UserSession For Website\**nhttps://t.me/Hpbot_update**"""
+Get API_ID from **@TeleORG_Bot** How To Get UserSession For Website\**https://t.me/Hpbot_update**"""
 HASH_TEXT = "Now Send Your `API_HASH`.\n\nGet API_HASH From https://my.telegram.org\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
     "Now Send Your Telegram Account's Phone Number in International Format. \n"
